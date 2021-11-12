@@ -1,0 +1,285 @@
+.location_img{
+  width: 100%;
+  height: 600px;
+}
+.location_title{
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #eee;
+}
+.location_icon{
+  width: 30px;
+  height: 30px;
+}
+#mapName{
+  height: 600px;
+  /* margin: 0 auto; */
+}
+.infoWindow{
+  display: flex;
+  align-items: center;
+  /* color: #fff; */
+  /* border-radius: 6px; */
+  /* background-color: rgba(0,0,0,0.5); */
+}
+.infoWindow .location_{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.infoWindow .location_icon{
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+.infoWindow >div{
+  display: flex;
+  flex-direction: column;
+}
+.infoWindow >div >span{
+  display: block;
+  font-size: 11px;
+  margin-top: 5px;
+  /* color: #dcd9d5; */
+  color: #666;
+}
+.myLocation{
+  margin: 50px 0 100px;
+  padding: 50px 0 100px;
+}
+.index_.index{
+  background-color: #fafafa !important;
+}
+.location_text{
+  width: 100%;
+  margin: auto;
+  padding: 30px 0;
+}
+.location_text >div{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.location_text >div >div{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+.location_text >div >div >img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.location_text .location_bottom{
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  flex-direction : row !important;
+  justify-content: flex-start !important;
+}
+.location_bottom >img{
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+/* 以下是企业文化页面样式 enterprise */
+.enterprise_title{
+  height: 260px;
+  width: 100%;
+  background:url('../image/enterprise/banner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.title_btn{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  background-color: #fff;
+  opacity: 0.8;
+  background-color: rgba(0,0,0,0.8);
+  background-color: #dbe9f9;
+  box-shadow: 0 5px 15px #ccc;
+  position: relative;
+}
+.title_btn >div >div{
+  /* width: 1500px;
+  margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+.title_btn >div .btn{
+  color: #5d81a0;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+.title_btn >div .btn.pitchOn{
+  background: #6084a3;
+  border-radius: 5px;
+  color: #fff;
+}
+.location_title{
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #eee;
+}
+.video_top{
+  height: 576px;
+}
+.video_bottom{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 48px 0;
+}
+.video_bottom >div{
+  width: 400px;
+  display: flex;
+  margin-right: 150px;
+  flex-direction: column;
+}
+.video_bottom >div>video{
+  width: 400px;
+}
+.video_bottom .video_iinfo{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.video_bottom .video_iinfo >img{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.video_bottom .video_iinfo >span{
+  font-weight: bold;
+  color: #2a599d;
+}
+.enterprise_content{
+  margin: 50px auto;
+}
+/* 以下企业文化 */
+.enterprise_content2 .text{
+  font-weight: bold;
+  font-size: 20px;
+  color: #2a599d;
+}
+.enterprise_info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.enterprise_info >div{
+  width: 33.33%;
+}
+.enterprise_info .content_img >img{
+  width: 50%;
+  padding: 5px;
+  height: 180px;
+}
+.enterprise_info .content_img{
+  padding: 0 30px;
+}
+.left_text >div >div{
+  font-size: 26px;
+  color: #2a599d;
+  text-align: right;
+}
+.left_text >div >span{
+  display: block;
+  text-align: right;
+  margin-top: 18px;
+}
+.left_text >div{
+  height: 180px;
+  padding-top: 26px;
+}
+.right_text >div >div{
+  font-size: 24px;
+  color: #2a599d;
+}
+.right_text >div >span{
+  display: block;
+  margin-top: 18px;
+}
+.right_text >div{
+  height: 180px;
+  padding-top: 26px;
+}
+.poem{
+  margin-top: 17px;
+}
+.poem >span{
+  color: #2a599d;
+}
+.enterprise_content2{
+  padding-bottom: 100px;
+}
+
+/* 以下是联系我们样式 */
+.relation_me_title{
+  height: 260px;
+  width: 100%;
+  background:url('../image/banner5@1x.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.inform_me_title{
+  height: 260px;
+  width: 100%;
+  background:url('../image/location/顶部图.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.my_info{
+  height: 920px;
+  background:url('../image/location/位图.png');
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+.my_info .form{
+  width: 60%;
+  background-color: #fff;
+  padding: 10px 80px 70px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.my_info .form >div{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 3px solid #fd8d88;
+  color: #2a599d;
+}
+.my_info .form >div:last-child{
+  border-bottom: none !important;
+}
+.my_info .form >div >div{
+  display: flex;
+  align-items: center;
+}
+.my_info .form >div >div >img{
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}

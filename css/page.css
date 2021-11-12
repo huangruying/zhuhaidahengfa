@@ -1,0 +1,45 @@
+.sub-pages,.rb_bottom,.rb_bottom .fy_y,.rb_bottom .pnbtn,.rb_bottom .previous,.rb_bottom .next {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.sub-pages {
+	height: 36px;
+	line-height: 36px;
+	color: #999;
+	width: 50%;
+}
+.fy_d,.fy_y, .pnbtn,.previous,.next {
+	box-sizing: border-box;
+	margin-left: 15px;
+	cursor:pointer;
+}
+.selected {
+	background-color: #26569b;
+	color: #fff;
+	padding: 0 16px;
+	line-height: inherit;
+	border-radius: 8px;
+}
+.page {
+    display: flex;
+    line-height: 36px;
+    color: #999;
+    width: 50%;
+    margin: inherit;
+    padding-top: 205px;
+}
+.go-page {
+	display: flex;
+	padding-left: 15px;
+}
+.page .num-list >li{
+	margin-left: 15px;
+}
+.go-page .num-iput {
+	line-height: inherit;
+	border: 1px solid #dcdee6;
+	border-radius: 8px;
+	padding: 0 23px;
+	margin: 0 10px;
+}

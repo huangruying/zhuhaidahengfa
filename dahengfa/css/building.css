@@ -1,0 +1,200 @@
+.ellipsis {
+	overflow: hidden; 
+	white-space: nowrap; 
+	text-overflow: ellipsis;
+}
+.back-w {
+	background-color: #fff;
+}
+.hover-color {
+	background-color: #c71b05;
+	color: #fff;
+	border: 2px solid #c71b05 !important;
+}
+/* .content {
+	background-image: url("../image/home/banner@1x.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+} */
+.content {
+	width: 100%;
+	height: 1440px;
+	position: relative;
+}
+.content  .content-del {
+	position: absolute;
+	bottom: 88px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.content-del .back-img {
+	width: 100%;
+}
+.content-del .content-flex {
+	display: flex;
+}
+.content-flex .nav{
+	width: 16%;
+	margin-right: 10px;
+	padding-top: 17px;
+}
+.nav .nav-center-ul {
+	width: 120px;
+	margin: 0 auto;
+}
+.nav .nav-center-ul .nav-center-li {
+	border: 2px solid #e1e1e1;
+	line-height: 46px;
+	text-align: center;
+}
+
+.content-flex .detail{
+	padding: 20px;
+	display: flex;
+}
+.detail .detail-banner {
+	 width: 575px;
+	 height: 395px;
+	 overflow: hidden;
+}
+.detail .detail-text {
+	padding-left: 20px;
+}
+.detail-text .text-title {
+	 color: #c71b05;
+	 font-size: 18px;
+	 padding-bottom: 30px;
+}
+.detail-text .text-li {
+	 display: flex;
+	 font-size: 12px;
+	 color: #999;
+	 padding-bottom: 20px
+}
+.text-li .text-w {
+	 width: 290px;
+	 margin-right: 20px;
+}
+.swiper-build .swiper-wrapper .swiper-slide {
+	width: 282px;
+	/* height: 195px; */
+}
+.swiper-slide >img {
+	width: 100%;
+	height: 100%;
+}
+.build-banner,
+.links {
+	width: 1200px;
+}
+.build-banner {
+	padding: 70px 17px 25px 17px;
+	margin: 10px 0;
+}
+.links {
+	padding: 27px 0 30px 20px;
+}
+.links .link-list {
+	overflow: hidden;
+	padding-left: 30px;
+}
+.link-list .fl-pad {
+	padding: 0 213px 0 276px;
+}
+
+.index_{
+  position: relative;
+}
+
+.enterprise_title{
+  /* height: 260px;
+  width: 100%;
+  background:url('../image/enterprise/banner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  background-color: #cf3838;
+  opacity: 0.8;
+  position: relative;
+}
+.enterprise_title .title_btn{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  position: relative;
+}
+.enterprise_title .title_btn >div >div{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+.enterprise_title .title_btn >div .btn{
+  color: #fff;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+.enterprise_title .title_btn >div .btn.pitchOn{
+  background: #f0c3c3;
+  border-radius: 5px;
+  color: #c81919;
+}
+
+.enterprise_title2{
+  height: 260px;
+  width: 100%;
+  background:url('../image/enterprise/banner.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+.enterprise_title2 .title_btn{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  background-color: #fff;
+  opacity: 0.8;
+  background-color: rgba(0,0,0,0.8);
+  background-color: #dbe9f9;
+  box-shadow: 0 5px 15px #ccc;
+  position: relative;
+}
+.enterprise_title2 .title_btn >div >div{
+  /* width: 1500px;
+  margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+.enterprise_title2 .title_btn >div .btn{
+  color: #5d81a0;
+  width: 100px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+.enterprise_title2 .title_btn >div .btn.pitchOn{
+  background: #6084a3;
+  border-radius: 5px;
+  color: #fff;
+}
+.content2 .location_title{
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #eee;
+}

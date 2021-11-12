@@ -1,0 +1,131 @@
+/* .bgdColor {
+	background-color: #9fd152;
+	color: #fff;
+} */
+.logohide {
+	display: none;
+}
+.hovers {
+	background-color: #26569b;
+}
+.hovers >p {
+	color: #fff;
+}
+.hover-li {
+	background-color: #666;
+	color: #fff;
+}
+.flex-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content .content-img {
+	width: 100%;
+	height: 420px;
+	margin-bottom: 50px;
+}
+.content .content-det {
+	border-top: 1px solid #ddd;
+	margin-top: 20px;
+	padding-bottom: 400px;
+}
+.content .content-det .tag-list {
+	display: flex;
+	box-shadow: 0 0 15px #ddd;
+	margin: 60px 0;
+}
+.content-det .tag-list .tag-li {
+	padding: 40px;
+	width: 30%;
+	box-sizing: border-box;
+	color: #666;
+}
+.content-det .tag-list .tag-li .tag-logo,
+.content-det .tag-list .tag-li .t-logo {
+	width: 45px;
+	margin-bottom: 20px;
+}
+.content-det .tag-list .tag-li .tag-txt {
+	width: 195px;
+	padding-top: 28px;
+	line-height: 1.8;
+}
+.content .content-det .content-tt {
+	color: #26569b;
+	/* margin-bottom: 80px; */
+	width: 190px;
+	border-bottom: 1px solid #26569b;
+	padding-bottom: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.content .content-det .content-tt >span {
+	padding-right: 8px;
+}
+.content-det .content-tt .content-ct {
+	padding-top: 20px;
+}
+.content-det .file-list {
+	display: flex;
+}
+.content-det .file-list .file-li {
+	width: 105px;
+	height: 130px;
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.content-det .file-list .file-li >img {
+	width: 100%;
+	height: 100%;
+}
+/* .tag-b-list {
+	overflow: hidden;
+}
+.tag-b-list .b-list-li {
+	margin-bottom: 40px;
+	margin-right: 43px;
+	position: relative;
+}
+.tag-b-list .b-list-li .name {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	width: 86%;
+	text-align: center;
+}
+.tag-b-list .b-list-li .back-img {
+	width: 100%;
+	height: 100%;
+} */
+.tag-b-list {
+	overflow: hidden;
+}
+.tag-b-list .b-list-li {
+	margin-bottom: 40px;
+	margin-right: 43px;
+  display: block;
+  float: left;
+  width: 22%;
+	position: relative;
+}
+.tag-b-list .b-list-li .name {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	width: 86%;
+	text-align: center;
+}
+.tag-b-list .b-list-li .back-img {
+	width: 100%;
+	height: 100%;
+}
+.business-list {
+	margin-top: 125px;
+}
+#tag-b-list {
+	padding-top: 80px;
+}

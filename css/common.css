@@ -1,0 +1,117 @@
+.font-blue {
+	font-weight: bold;
+	color: #26569b;
+}
+/* 字体尺寸 */
+.font-12 { font-size: 12px; }
+.font-14 { font-size: 14px; }
+.font-16 { font-size: 16px; }
+.font-18 { font-size: 18px; }
+.font-20 { font-size: 20px; }
+.font-22 { font-size: 22px; }
+
+/* 头部 */
+.bgdColor {
+  background-color: #9fd152;
+  color: #fff;
+}
+.flex-between {
+	display: flex;
+	justify-content: space-between;
+}
+#headBox .logo {
+	width: 530px;
+}
+#headBox .head {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	align-items: center;
+	background-color: #fff;
+}
+#headBox .search .search-ipt,
+#headBox .search .search-txt {
+	display: inline-block;
+}
+#headBox .search .search-ipt {
+	width: 160px;
+	line-height: 30px;
+	border: 1px solid #333;
+	border-radius: 50px;
+	padding: 0 12px;
+	margin-right: 15px;
+}
+#headBox .search-ipt .search-flex {
+	display: flex;
+	overflow: hidden;
+	height: 30px;
+	align-items: center;
+}
+#headBox .search-ipt .search-flex >input{
+	width: 90%;
+}
+#headBox .search-ipt .search-img {
+	width: 14px;
+	height: 14px;
+}
+#headBox .search .search-txt .padding-lr {
+	padding: 0 10px;
+}
+#headBox .nav {
+	color: #fff;
+	font-size: 16px;
+	line-height: 70px;
+	overflow: hidden;
+	background-color: #2c597e;
+}
+#headBox .nav .nav-list {
+	display: flex;
+	justify-content: center;
+}
+#headBox .nav .nav-list .nav-li {
+	padding: 0 37px;
+	cursor: pointer;
+}
+#headBox .nav-hover-list {
+	background-color: #dbe9f9;
+	opacity: 0.8;
+	font-size: 14px;
+}
+#headBox .nav-hover-list .nav-lis {
+	display: flex;
+	justify-content: center;
+  padding: 8px 0;
+}
+#headBox .nav-hover-list .nav-lis .nav-li{
+	width: 130px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 6px;
+}
+#headBox .nav-hover-list .nav-lis .nav-li.nav_color{
+  color: #fff;
+  background-color: #6889a4;
+}
+/* 尾部 */
+#baseBox {
+	background-color: #2c597e;
+	color: #fff;
+	padding: 55px 0 30px 0;
+}
+#baseBox .contents {
+	display: flex;
+	justify-content: space-around;
+}
+#baseBox .foot-list .list-cont {
+	padding-top: 20px;
+	font-size: 12px;
+}
+#baseBox .list-cont >p {
+	padding-bottom: 15px;
+}
+#baseBox .list-cont >div {
+	padding-bottom: 10px;
+}
+#baseBox .foot-list .list-name {
+	font-size: 16px;
+}

@@ -1,0 +1,11 @@
+$(function(){
+  $('.nav_list>li').hover(function(){
+    if($(this)[0].children.length<2){
+      $('.shade').css('display','none')
+    }else{
+      $('.shade').css('display','block')
+    }
+  },function(){
+    $('.shade').css('display','none')
+  })
+})

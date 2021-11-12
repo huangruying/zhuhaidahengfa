@@ -1,0 +1,313 @@
+.flex-box {
+	display: flex;
+}
+.imgwh {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto 10px;
+}
+.btn-t {
+	top: 42%;
+}
+.content .content-img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	/* margin-bottom: 50px; */
+}
+.content-img .content-shade {
+	width: 100%;
+	height: 100%;
+	background-color: #26569b;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.5;
+}
+.pw{
+	line-height: 80px;
+}
+.content .content-det {
+	border-top: 1px solid #ddd;
+	/* margin-top: 20px; */
+	padding-bottom: 400px;
+	padding-top: 76px;
+	background-color: #fff;
+}
+.content-titles {
+	padding-bottom: 40px;
+}
+.flex-box .address >p {
+	padding-bottom: 30px;
+}
+
+.head-li,
+.center .center-li,
+.bottom .bottom-li {
+	padding: 20px 0;
+	color: #fff;
+	border-radius: 15px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #6788b9;
+}
+.head-li {
+	width: 21%;
+	position: relative;
+}
+.head-li::before{
+	content: '';
+	display: block;
+	height: 95px;
+	position: absolute;
+	border-right: 2px solid #6788b9;
+	top: 104px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.center {
+	width: 45%;
+	height: 165px;
+	border-top: 2px solid #6788b9;
+	margin: 95px auto 0;
+	position: relative;
+}
+.center .center-li {
+	width: 28%;
+	position: absolute;
+	top: -35%;
+}
+.center .center-li::before {
+	content: '';
+	display: block;
+	height: 30px;
+	position: absolute;
+	border-right: 2px solid #6788b9;
+	top: 104px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.center .center-left {
+	right: 85%;
+	/* transform: translate(-65%, -50%); */
+}
+.center .center-right {
+	left: 85%;
+	/* transform: translate(-125%, -50%); */
+}
+/* .bottom {
+	position: absolute;
+	left: -30%;
+	top: 110px;
+} */
+.bottom .bottom-li {
+	padding-left: 18px;
+	padding-right: 18px;
+	line-height: 1.6;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width: 246px;
+}
+.bottom-left,
+.bottom-right {
+	border: 2px solid #6788b9;
+	height: 50px;
+	position: absolute;
+	top: 77px;
+	border-bottom: none;
+}
+.bottom-left {
+	left: -123px;
+	width: 260px;
+}
+.bottom-right {
+	width: 550px;
+	right: -275px;
+}
+.b-left,
+.b-right,
+.bottom-r {
+	position: absolute;
+	top: 23px;
+}
+.b-left  {
+	right: 140px;
+}
+.b-right {
+	left: 150px;
+}
+.bottom-r {
+	left: -105px;
+}
+.slide-li {
+	/* margin: 0 50px 50px 0; */
+	text-align: center;
+	padding-bottom: 35px;
+}
+.slide-li .banner {
+	width: 350px;
+	margin: 0 auto 15px;
+}
+
+.navs{
+	width: 260px;
+	height: 98px;
+	margin-right: 20px;
+	/* padding-top: 17px; */
+}
+.nav_content{
+	width: 1115px;
+	margin-left: 26px;
+}
+.navs .nav-center-ul {
+	width: 120px;
+	margin: 0 auto;
+}
+.navs .nav-center-ul .nav-center-li {
+	border: 2px solid #e1e1e1;
+	line-height: 46px;
+	text-align: center;
+}
+.navs .nav-title {
+	background-color: #4577be;
+	color: #fff;
+	padding: 23px 27px;
+	background-image: url("../image/关于公司/社会责任.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.navs .union-li{
+	display: flex;
+	padding: 23px 27px;
+	justify-content: space-between;
+	background-color: #f9f9f9;
+}
+.new .new-img {
+	width: 320px;
+	height: 160px;
+	margin-right: 22px;
+}
+.new .new-content {
+	font-size: 18px;
+	line-height: 28px;
+	text-indent: 35px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+.new .flex-box {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 28px;
+	margin-bottom: 28px;
+}
+.new .flex-box:last-child {
+	border-bottom: none;
+}
+
+.introduce-li {
+	text-indent: 2em;
+	font-size: 18px;
+	line-height: 36px;
+	padding-bottom: 20px;
+}
+.time-ul-left {
+	margin-top: 98px;
+	margin-right: -32px;
+}
+.time-ul-right {
+    margin-top: 332px;
+    margin-left: -32px;
+}
+.time-li {
+	border-radius: 20px;
+	border: 2px solid #9eb3d2;
+	width: 450px;
+	padding-top: 15px;
+	padding-bottom: 55px;
+	margin-bottom: 30px;
+	box-shadow: 0 0 10px #9eb3d2;
+}
+.time-li >img,
+.time-li .time-tt {
+	width: 410px;
+	margin: 0 auto;
+}
+.time-li >img {
+	border-radius: 10px;
+	height: 278px;
+	margin-bottom: 38px;
+}
+.time-li .time-tt {
+	width: 410px;
+	position: relative;
+	margin-left: 40px;
+	line-height: 1.6;
+	font-size: 18px;
+}
+.time-li .time-tt::before {
+	content: '';
+	display: block;
+	width: 40px;
+	border-top: 4px solid;
+	padding-top: 32px;
+}
+.time-ul .time {
+	padding-top: 20px;
+	font-weight: bold;
+}
+.time-ul-left .time {
+	padding-left: 32px;
+}
+.time-ul-right .time {
+	padding-right: 32px;
+}
+.shape-li {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin: 57px auto 228px;
+}
+.shape-li::before {
+	position: absolute;
+	content: '';
+	display: block;
+	height: 228px;
+	border-left: 2px solid #26569b;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 20px;
+}
+.shape-lis::before {
+	height: 60px !important;
+}
+.shape-li .shape {
+	width: inherit;
+	height: inherit;
+	border: 5px solid #26569b;
+	transform:rotate(45deg);
+}
+.year {
+	background-color: #26569b;
+	color: #fff;
+	padding: 15px 35px;
+}
+.nav_content .new{
+	display: none;
+}
+.new_current{
+	display: block !important;
+}
+.padding-lr{
+	margin: 0 10px;
+}
+
+/* 公司荣誉轮播图样式 */
+.swiper-slide{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 65px;
+}

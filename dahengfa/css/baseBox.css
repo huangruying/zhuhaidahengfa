@@ -1,0 +1,22 @@
+.baseBox {
+	background-color: #2c597e;
+	color: #fff;
+	padding: 55px 0 30px 0;
+}
+.baseBox .contents {
+	display: flex;
+	justify-content: space-around;
+}
+.foot-list .list-cont {
+	padding-top: 20px;
+	font-size: 12px;
+}
+.list-cont >p {
+	padding-bottom: 15px;
+}
+.list-cont >div {
+	padding-bottom: 10px;
+}
+.foot-list .list-name {
+	font-size: 16px;
+}
